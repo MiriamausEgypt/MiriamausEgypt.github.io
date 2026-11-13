@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ספח</title>
+    <link>http://localhost:1313/he/</link>
+    <description>Recent content on ספח</description>
+    <generator>Hugo</generator>
+    <language>he-IL</language>
+    <atom:link href="http://localhost:1313/he/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>דף הבית</title>
+      <link>http://localhost:1313/he/posts/deepseek_markdown_20261110_587bd2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/he/posts/deepseek_markdown_20261110_587bd2/</guid>
+      <description>זהו הבלוג שלי בעברית.</description>
+    </item>
+  </channel>
+</rss>

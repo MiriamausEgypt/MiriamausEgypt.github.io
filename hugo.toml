@@ -1,0 +1,59 @@
+baseURL = "https://MiriamausEgypt.github.io/"
+title = "随笔"
+theme = "PaperMod"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh-CN"
+    contentDir = "content/zh"
+    weight = 1
+    title = "随笔"
+
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        name = "文章"
+        pageRef = "/posts"
+        weight = 10
+      [[languages.zh.menu.main]]
+        name = "关于"
+        pageRef = "/about"
+        weight = 20
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    contentDir = "content/en"
+    weight = 2
+    title = "Journal"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Posts"
+        pageRef = "/posts"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "About"
+        pageRef = "/about"
+        weight = 20
+
+  [languages.he]
+    languageName = "עברית"
+    languageCode = "he-IL"
+    contentDir = "content/he"
+    weight = 3
+    languageDirection = "rtl"
+    title = "ספח"
+
+    [languages.he.menu]
+      [[languages.he.menu.main]]
+        name = "פוסטים"
+        pageRef = "/posts"
+        weight = 10
+      [[languages.he.menu.main]]
+        name = "אודות"
+        pageRef = "/about"
+        weight = 20
